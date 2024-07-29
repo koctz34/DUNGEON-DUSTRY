@@ -1,0 +1,63 @@
+type: mech
+outlineColor: 474568
+speed: 0.9
+rotateSpeed: 5
+health: 40
+armor: 5
+drawCell: false
+hitSize: 4
+abilities: [
+{
+type: moveEffectAbility
+effect: smoke
+y: -8
+interval: 5
+}
+]
+weapons: [
+{
+name: base-weapon
+x: 3
+y: 0
+shootSound: rifle-shot
+rotate: false
+ejectEffect: casing1
+shoot: {
+shots: 3
+}
+reload: 60
+recoil: 1
+inaccuracy: 15
+bullet: {
+type: BasicBulletType
+speed: 3
+damage: 8
+trailWidth: 2
+trailLength: 5
+height: 9
+width: 7
+lifetime: 20
+}
+}
+{
+name: dash
+mirror: false
+x: 0
+y: 0
+shootSound: orb
+rotate: false
+ejectEffect: none
+reload: 200
+recoil: -7
+bullet: {
+type: BasicBulletType
+damage: 0
+recoil: -7
+height: 0
+speed: 0
+width: 0
+lifetime: 0
+}
+}
+]
+

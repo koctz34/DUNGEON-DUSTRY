@@ -1,0 +1,28 @@
+// PLAYER DEAD
+op add b b 1
+radar player any any distance scathe1 1 a
+jump 4 lessThanEq a 0
+end
+jump 6 greaterThanEq b 300
+end
+setblock block @air 17 37 @derelict 0
+
+// ROOM
+radar player any any distance mender1 1 a
+radar enemy any any distance scathe1 1 b
+jump 6 greaterThanEq a 1
+jump 15 greaterThanEq b 1
+jump 17 lessThanEq b 0
+end
+setblock block @dungeondustry-door-red 17 33 1 0
+spawn @dungeondustry-doide 16 29 90 @crux b1
+spawn @dungeondustry-doide 18 29 90 @crux b2
+spawn @dungeondustry-doide 22 29 90 @crux b3
+spawn @dungeondustry-doide 17 27 90 @crux b4
+spawn @dungeondustry-doide 20 27 90 @crux b5
+setblock block @air 17 28 @derelict 0
+setblock block @dungeondustry-music-shelter-first 0 0 @sharded 0
+end
+setblock block @dungeondustry-door-green 24 29 @derelict 0
+end
+setblock block @air 24 29 @derelict 0

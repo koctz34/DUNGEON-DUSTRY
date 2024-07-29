@@ -1,0 +1,102 @@
+type: mech
+outlineColor: 474568
+speed: 0.8
+rotateSpeed: 5
+faceTarget: true
+health: 20
+armor: 0
+drawCell: false
+hitSize: 4
+abilities: [
+{
+type: moveEffectAbility
+effect: smoke
+y: -8
+interval: 10
+}
+{
+type: LiquidExplodeAbility
+liquid: blood
+amount: 300
+}
+]
+weapons: [
+{
+name: rifle-gun
+mirror: false
+x: 0
+y: 0
+shootSound: rifle-shot
+ejectEffect: casing1
+shoot: {
+shots: 1
+}
+reload: 40
+recoil: 1
+inaccuracy: 4
+bullet: {
+type: BasicBulletType
+speed: 4
+damage: 4
+trailWidth: 2
+trailLength: 5
+height: 9
+width: 7
+lifetime: 20
+}
+despawnEffect: [
+{
+type: ExplosionEffect
+lifetime: 60
+waveStroke: 4
+waveColor: ff9988
+smokeColor: cc8877
+sparks: 8
+sparkRad: 2
+sparkLen: 4
+sparkStroke: 3
+smokeSizeBase: 1
+smokes: 5
+waveRad: 5
+smokeSize: 2
+}
+]
+hitEffect: [
+{
+type: ExplosionEffect
+lifetime: 60
+waveStroke: 4
+waveColor: ff9988
+smokeColor: cc8877
+sparks: 8
+sparkRad: 2
+sparkLen: 4
+sparkStroke: 3
+smokeSizeBase: 1
+smokes: 5
+waveRad: 5
+smokeSize: 2
+}
+]
+}
+{
+name: dash
+mirror: false
+x: 0
+y: 0
+shootSound: orb
+rotate: false
+ejectEffect: none
+reload: 200
+recoil: -7
+bullet: {
+type: BasicBulletType
+damage: 0
+recoil: -7
+height: 0
+speed: 0
+width: 0
+lifetime: 0
+}
+}
+]

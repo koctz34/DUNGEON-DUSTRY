@@ -1,0 +1,8 @@
+type: CoreBlock
+health: 200
+itemCapacity: 100
+size: 1
+unitCapModifier: 9999
+unitType: base-mech
+fogRadius: -2
+solid: false

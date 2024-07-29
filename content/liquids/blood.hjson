@@ -1,0 +1,7 @@
+type: liquid
+color: 2a356c
+maxSpread: 10
+viscosity: 0.98
+name: Tratanium
+description: ...B-Blood?...
+effect: inblood

@@ -1,0 +1,13 @@
+type: CoreBlock
+health: 99999
+itemCapacity: 100
+size: 1
+unitCapModifier: 2
+unitType: base-mech
+alwaysUnlocked: true
+requirements: [
+lead/1
+]
+category: effect
+fogRadius: -2
+solid: false

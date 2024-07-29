@@ -1,0 +1,9 @@
+  "type": "GenericCrafter",
+	 "researchCostMultiplier": 0.5,
+  "health": 99999,
+  "ambientSound": Lifegiver
+  "ambientSoundVolume": 1000000
+  "pause": false
+  "size": 1,
+  "craftTime": 1000,
+  "updateEffect": "none",
