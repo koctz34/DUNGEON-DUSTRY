@@ -1,13 +1,19 @@
 type: CoreBlock
-health: 99999
+health: 500
 itemCapacity: 100
 size: 1
 unitCapModifier: 2
 unitType: base-mech
 alwaysUnlocked: true
 requirements: [
-lead/1
+germanium/5
 ]
 category: effect
 fogRadius: -2
 solid: false
+research: {
+root: true
+name: Dustria
+alwaysUnlocked: true
+planet: dustria
+}

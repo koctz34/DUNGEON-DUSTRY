@@ -1,0 +1,16 @@
+tier: 1
+type: Drill
+squareSprite: true
+category: production
+health: 20
+drillTime: 700
+drawMineItem: false
+rotateSpeed: 6
+itemCapacity: 60
+size: 2
+research: {
+parent: core-base-mech
+}
+requirements: [
+germanium/20
+]

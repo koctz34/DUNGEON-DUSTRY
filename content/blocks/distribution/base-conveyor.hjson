@@ -1,0 +1,15 @@
+
+    type: Conveyor
+    category: distribution
+
+    health: 5
+    speed: 0.04
+    displayedSpeed: 8.4
+
+research: {
+parent: core-base-mech
+}
+
+requirements: [
+    germanium/1
+]

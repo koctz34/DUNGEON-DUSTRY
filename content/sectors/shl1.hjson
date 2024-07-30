@@ -1,0 +1,9 @@
+sector: 0
+planet: dustria
+difficulty: 1
+research: {
+parent: core-base-mech
+objectives: [
+
+]
+}

@@ -1,0 +1,12 @@
+sector: 1
+planet: dustria
+difficulty: 1
+research: {
+parent: shl1
+objectives: [
+{
+type: SectorComplete
+preset: shl1
+}
+]
+}

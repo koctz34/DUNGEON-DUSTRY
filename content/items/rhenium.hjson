@@ -1,0 +1,5 @@
+color: f15454
+cost: 1
+research: {
+parent: germanium
+}
