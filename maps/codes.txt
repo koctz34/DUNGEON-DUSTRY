@@ -1,11 +1,12 @@
 // PLAYER DEAD
 op add b b 1
 radar player any any distance scathe1 1 a
-jump 4 lessThanEq a 0
+jump 4 greaterThanEq b 500
 end
-jump 6 greaterThanEq b 300
+jump 6 lessThanEq a 0
 end
 setblock block @air 17 37 @derelict 0
+
 
 // ROOM
 radar player any any distance mender1 1 a
