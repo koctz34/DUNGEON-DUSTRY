@@ -1,0 +1,12 @@
+sector: 35
+planet: dustria
+difficulty: 1
+research: {
+parent: shl2
+objectives: [
+{
+type: SectorComplete
+preset: shl2
+}
+]
+}

@@ -1,12 +1,12 @@
 type: CoreBlock
 health: 500
-itemCapacity: 100
+itemCapacity: 1000
 size: 1
 unitCapModifier: 2
 unitType: base-mech
 alwaysUnlocked: true
 requirements: [
-germanium/5
+blue-token/1
 ]
 category: effect
 fogRadius: -2

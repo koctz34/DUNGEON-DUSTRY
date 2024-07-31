@@ -10,6 +10,15 @@ itemCapacity: 60
 size: 2
 research: {
 parent: core-base-mech
+requirements: [
+germanium/70
+]
+objectives: [
+{
+type: OnSector
+preset: shl3
+}
+]
 }
 requirements: [
 germanium/20

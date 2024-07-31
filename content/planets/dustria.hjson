@@ -188,5 +188,6 @@ launchCandidates: []
 #]
 # Only items available in this planet. Recommended over hiddenItems.
 itemWhitelist: [
-  germanium, rhenium
+  germanium, rhenium,
+  blue-token
 ]

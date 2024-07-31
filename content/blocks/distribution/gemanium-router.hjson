@@ -1,0 +1,14 @@
+
+type: router
+category: distribution
+solid: true
+health: 5
+requirements: [
+germanium/5
+]
+research: {
+parent: base-conveyor
+requirements: [
+germanium/5
+]
+}

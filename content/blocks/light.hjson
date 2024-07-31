@@ -1,0 +1,14 @@
+{
+	type: LightBlock
+    health: 99999
+    brightness: 1000
+    radius: 100
+    hasShadow: "false"
+    category: effect
+	solid: false
+	underBullets: true
+    requirements:
+    [
+        copper/1
+    ]
+}

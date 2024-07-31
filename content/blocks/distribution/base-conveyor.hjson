@@ -8,6 +8,15 @@
 
 research: {
 parent: core-base-mech
+requirements: [
+germanium/5
+]
+objectives: [
+{
+type: OnSector
+preset: shl3
+}
+]
 }
 
 requirements: [

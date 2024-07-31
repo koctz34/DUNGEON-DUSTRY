@@ -1,0 +1,14 @@
+type: Wall
+heatlh: 60
+research: {
+parent: rifle
+requirements: [
+germanium/20
+]
+objectives: [
+{
+type: OnSector
+preset: shl3
+}
+]
+}

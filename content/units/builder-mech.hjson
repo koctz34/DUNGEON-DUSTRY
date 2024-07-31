@@ -1,0 +1,21 @@
+type: mech
+outlineColor: 474568
+buildSpeed: 1
+speed: 0.8
+rotateSpeed: 8
+health: 30
+armor: 0
+drawCell: false
+hitSize: 5
+fogRadius: 3
+mineTier: 1
+mineSpeed: 1
+abilities: [
+{
+type: moveEffectAbility
+effect: smoke
+y: -8
+interval: 5
+}
+]
+

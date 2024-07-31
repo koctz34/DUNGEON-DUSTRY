@@ -1,0 +1,53 @@
+type: ItemTurret
+category: turret
+reload: 30
+recoil: 2
+requirements: [
+germanium/30
+]
+health: 50
+range: 40
+size: 1
+shootSound: rifle-shot
+ammoTypes: {
+
+germanium: {
+damage: 5
+speed: 2
+lifetime: 15
+ammoMultiplier: 2
+trailLength: 10
+width: 10
+height: 16
+
+shootEffect: shootSmall
+makeFire: false
+despawnEffect: [
+{
+type: ExplosionEffect
+waveColor: ffffff
+sparkColor: cc99ff
+smokes: 0
+}
+fluxVapor
+fluxVapor
+]
+}
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: germ-
+}
+research: {
+parent: core-base-mech
+requirements: [
+germanium/100
+]
+objectives: [
+{
+type: OnSector
+preset: shl3
+}
+]
+}
