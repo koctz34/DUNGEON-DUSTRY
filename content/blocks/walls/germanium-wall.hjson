@@ -1,5 +1,6 @@
 type: Wall
 heatlh: 60
+category: defense
 research: {
 parent: rifle
 requirements: [
