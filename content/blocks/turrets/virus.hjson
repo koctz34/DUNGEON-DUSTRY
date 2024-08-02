@@ -1,0 +1,33 @@
+type: PowerTurret
+category: turret
+inaccuracy: 360
+reload: 10
+recoil: 2
+shootY: 0
+health: 50
+range: 40
+size: 1
+shootSound: plasma-shot
+shootType: {
+damage: 5
+speed: 1
+lifetime: 40
+ammoMultiplier: 2
+trailLength: 10
+width: 10
+height: 16
+
+shootEffect: fluxVapor
+shootSmoke: fluxVapor
+makeFire: false
+despawnEffect: [
+{
+type: ExplosionEffect
+waveColor: ffffff
+sparkColor: ffffff
+smokes: 0
+}
+fluxVapor
+fluxVapor
+]
+}

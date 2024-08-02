@@ -1,6 +1,7 @@
 sector: 35
 planet: dustria
 difficulty: 1
+captureWave: 11
 research: {
 parent: shl2
 objectives: [
